@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6FBBB5CD287E0D8100180751 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBB5CC287E0D8100180751 /* main.c */; };
+		6FED620A28829048008FBC48 /* erreur.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FED620928829048008FBC48 /* erreur.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		6FBBB5C9287E0D8100180751 /* appTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBBB5CC287E0D8100180751 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6FBBB5D4287E0DAF00180751 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		6FED620828829048008FBC48 /* erreur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = erreur.h; sourceTree = "<group>"; };
+		6FED620928829048008FBC48 /* erreur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = erreur.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				6FBBB5CC287E0D8100180751 /* main.c */,
+				6FED620828829048008FBC48 /* erreur.h */,
+				6FED620928829048008FBC48 /* erreur.c */,
 			);
 			path = appTest;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FED620A28829048008FBC48 /* erreur.c in Sources */,
 				6FBBB5CD287E0D8100180751 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
